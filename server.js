@@ -24,5 +24,10 @@ app.post('/contactList', function(req, res) {
 	});
 })
 
+app.delete('/contactList/:id',function(req, res) {
+	var id = req.params.id;
+	console.log(id);
+})
+
 app.listen(4000);
 console.log('Server running on port 4000');
