@@ -18,6 +18,8 @@ myApp.controller('AppCtrl',['$scope', '$http',
 		};
 		
 		$scope.remove = function(id) {
-			$http.delete('/contactList/' + id);
+			$http.delete('/contactList/' + id).success(function(response) {
+				refresh();
+			});
 		};
 }]);
