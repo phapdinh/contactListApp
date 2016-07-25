@@ -49,5 +49,6 @@ app.put('/contactList/:id', function(req, res) {
 	});
 })
 
-app.listen(4000);
+var port = Number(process.env.PORT || 4000);
+app.listen(port);
 console.log('Server running on port 4000');

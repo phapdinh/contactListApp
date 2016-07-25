@@ -1,0 +1,26 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "App created using mean stack",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "body-parser": "^1.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phapdinh/contactListApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phapdinh/contactListApp/issues"
+  },
+  "homepage": "https://github.com/phapdinh/contactListApp#readme"
+}
