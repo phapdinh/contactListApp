@@ -8,6 +8,10 @@ var db = mongojs('contactList',['contactList']);
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
+app.get('/', function(req, res) {
+	res.render('index');
+})
+
 app.get('/contactList',function(req, res) {
 	console.log("I received a get request");
 	
